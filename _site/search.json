@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Carolinas Regional Explorer User Guide",
+    "section": "",
+    "text": "This comprehensive user guide for the Carolinas Regional Explorer application, hosted at https://regionalexplorer.netlify.app/, is designed to assist users in navigating its features, exploring data relationships, and analyzing spatial patterns. The application is part of the Carolinas Regional Explorer project, a web-based interactive data platform developed by the UNC Charlotte Urban Institute, seeking to present neighborhood-level data on public life across 14 counties surrounding Mecklenberg County. These counties include Mecklenburg, Cabarrus, Union, Stanly, Rowan, Iredell, Catawba, Lincoln, Gaston, Anson, Cleveland, York (SC), Chester (SC), and Lancaster (SC). Modeled along the lines of the Charlotte-Mecklenburg Quality of Life Explorer (Quality of Life Explorer), the regional explorer expands the spatial footprint to serve the region and offers enhanced features to understand regional growth dynamics.\nThe guide is divided into three sections, each addressing specific tools and features, with detailed instructions and interpretations for effective use."
+  },
+  {
+    "objectID": "index.html#zooming-and-panning",
+    "href": "index.html#zooming-and-panning",
+    "title": "Carolinas Regional Explorer User Guide",
+    "section": "Zooming and Panning:",
+    "text": "Zooming and Panning:\n\nUsers can zoom in and out using the mouse wheel or dedicated zoom buttons, found at the top-left of the map.\nPanning is achieved by clicking and dragging the map, allowing exploration of different regions within the 14 counties."
+  },
+  {
+    "objectID": "index.html#using-the-navigation-features",
+    "href": "index.html#using-the-navigation-features",
+    "title": "Carolinas Regional Explorer User Guide",
+    "section": "Using the Navigation features",
+    "text": "Using the Navigation features\n\nOn the top left of the explorer are a set of navigation features.\n\nBelow the zoom in and zoom out buttons, the Home button allows users to return the map to its default extent. This is especially useful after zooming in or selecting a city or county from the search bar.\nThe next button is a basemap selector. Choose from a list of basemaps that suit your purpose and preference.\nThe cross button below is to clear selection. When a city or county is selected, their boundaries are highlighted in red. This button will clear any selection made on the map.\nThe zoom button below zooms to a selected city or census tract or county. This is useful when one arbitrarily zooms out of a selected feature but wants to return to the default extent of a city or a county.\nThe eye button toggles between the explorer and the base map. This is useful when investigating the exact location of a census tract."
+  },
+  {
+    "objectID": "index.html#selecting-geographic-levels",
+    "href": "index.html#selecting-geographic-levels",
+    "title": "Carolinas Regional Explorer User Guide",
+    "section": "Selecting Geographic Levels:",
+    "text": "Selecting Geographic Levels:\n\nThe search feature let users search for census tracts, towns, cities and counties in the region.\nThe dropdown from the search box also allows you to browse the counties and cities to select them without typing.\nSelecting a city or county zooms in and shows the boundaries."
+  },
+  {
+    "objectID": "index.html#interpreting-the-maps",
+    "href": "index.html#interpreting-the-maps",
+    "title": "Carolinas Regional Explorer User Guide",
+    "section": "Interpreting the Maps:",
+    "text": "Interpreting the Maps:\n\nThe maps use color coding to represent values of selected indicators, such as socioeconomic or environmental data.\nA legend is provided, showing what each color corresponds to, such as a gradient from light to dark indicating low to high values."
+  },
+  {
+    "objectID": "index.html#using-the-time-slider",
+    "href": "index.html#using-the-time-slider",
+    "title": "Carolinas Regional Explorer User Guide",
+    "section": "Using the Time Slider:",
+    "text": "Using the Time Slider:\nThe time slider allows users to view data from different time periods, likely years or specific dates, to track historical changes in the 14 counties."
+  },
+  {
+    "objectID": "index.html#interpreting-the-bivariate-choropleth-map",
+    "href": "index.html#interpreting-the-bivariate-choropleth-map",
+    "title": "Carolinas Regional Explorer User Guide",
+    "section": "Interpreting the Bivariate Choropleth Map:",
+    "text": "Interpreting the Bivariate Choropleth Map:\nThe map uses a combination of colors to represent the values of both variables. For instance, one variable uses shades of blue (light to dark for low to high), and another shades of red, with the resulting color on the map being a mix showing intermediate values.\nThis visualization helps identify correlations, such as areas with high values in both variables appearing in darker shades, across the region."
+  },
+  {
+    "objectID": "index.html#understanding-the-legend",
+    "href": "index.html#understanding-the-legend",
+    "title": "Carolinas Regional Explorer User Guide",
+    "section": "Understanding the Legend:",
+    "text": "Understanding the Legend:\n\nThe legend, presented as a matrix or color grid, shows how different combinations of the two variables’ values are represented. \nThe arrows represent the axis of each variable with shades of color along the axis representing high and low values in those variables respectively. Simultaneously, the high values along these axes also represent the low values of the other variables and vice versa.\nColors in the top and bottom corner of the square represent areas with high values in both variables and areas with low values in both variables respectively."
+  },
+  {
+    "objectID": "index.html#interpreting-cluster-types",
+    "href": "index.html#interpreting-cluster-types",
+    "title": "Carolinas Regional Explorer User Guide",
+    "section": "Interpreting Cluster Types:",
+    "text": "Interpreting Cluster Types:\n\nThe local Moran’s I map identifies four cluster types:\n\nHH (High-High): Areas with high values surrounded by high-value areas, indicating hot spots, such as regions with consistently high crime rates.\nLL (Low-Low): Areas with low values surrounded by low-value areas, indicating cold spots, such as regions with low population density.\nHL (High-Low): Areas with high values surrounded by low-value areas, outliers where a high value is isolated, such as a wealthy neighborhood in a poorer region.\nLH (Low-High): Areas with low values surrounded by high-value areas, outliers where a low value is isolated, such as a low-income area in a high-income region.\n\nThese clusters help identify spatial autocorrelation, showing where similar values cluster together across the region.\n\n\n\nCaveats:\n\nInterpretation should consider scale dependency; different zoom levels may reveal different patterns, affecting cluster identification across the 14 counties.\nThe definition of neighbors (adjacent areas) impacts results, and users should ensure it aligns with the analysis context, especially given the regional scope.\nData suitability is crucial; ensure the indicator is appropriate for spatial autocorrelation. Be cautious, as correlation does not imply causation, and clusters may reflect underlying factors not shown in the data."
+  },
+  {
+    "objectID": "index.html#bivariate-choropleth-maps",
+    "href": "index.html#bivariate-choropleth-maps",
+    "title": "Carolinas Regional Explorer User Guide",
+    "section": "Bivariate Choropleth Maps",
+    "text": "Bivariate Choropleth Maps\nBivariate choropleth maps use color to display two variables simultaneously, helping to visualize their spatial relationships.\n\n“Bivariate Choropleth Maps: A How-to Guide” by Joshua Stevens\n\nLink:https://www.joshuastevens.net/cartography/bivariate-choropleth-maps-a-how-to-guide/\nDescription: A beginner-friendly tutorial on creating bivariate choropleth maps, with conceptual explanations and practical steps. It emphasizes normalization and color scheme design.\nCitation: Stevens, J. (2015, February 17). Bivariate Choropleth Maps: A How-to Guide. Retrieved fromhttps://www.joshuastevens.net.\n\n“Bivariate Choropleth Maps” - Water Programming Blog\n\nLink:https://waterprogramming.wordpress.com/2022/09/08/bivariate-choropleth-maps/\nDescription: A Python-based guide with code examples using Geopandas, showing how to blend two variables into a 2D colormap. Includes a GitHub repository for hands-on practice.\nCitation: Water Programming Blog. (2022, September 8). Bivariate Choropleth Maps. Retrieved fromhttps://waterprogramming.wordpress.com.\n\n“Bivariate Choropleth Maps” - CDC GIS Portal\n\nLink:https://gis.cdc.gov/grasp/diabetes/diabetesatlas-bivariate.html\nDescription: An applied example from the CDC showing bivariate maps of diabetes and obesity, with a clear explanation of the 3x3 color grid (e.g., “LL” for low-low, “HH” for high-high).\nCitation: Centers for Disease Control and Prevention. (n.d.). Bivariate Choropleth Maps. Retrieved fromhttps://gis.cdc.gov."
+  },
+  {
+    "objectID": "index.html#spatial-autocorrelation",
+    "href": "index.html#spatial-autocorrelation",
+    "title": "Carolinas Regional Explorer User Guide",
+    "section": "Spatial Autocorrelation",
+    "text": "Spatial Autocorrelation\nSpatial autocorrelation measures how similar values are based on their proximity, often summarized with global statistics like Moran’s I.\n\n“Spatial Autocorrelation and Moran’s I in GIS” - GIS Geography\n\nLink:https://gisgeography.com/spatial-autocorrelation-morans-i/\nDescription: A clear, illustrated introduction to spatial autocorrelation and Moran’s I, explaining positive (clustering) and negative (dispersion) patterns with examples like checkerboards.\nCitation: GIS Geography. (2024, March 8). Spatial Autocorrelation and Moran’s I in GIS. Retrieved fromhttps://gisgeography.com.\n\n“Chapter 8 Spatial Autocorrelation” - Spatial Statistics for Data Science with R by Paula Moraga\n\nLink:https://www.paulamoraga.com/book-spatial/spatial-autocorrelation.html\nDescription: An academic yet accessible chapter covering Moran’s I and Geary’s C, with R code for analyzing housing prices in Boston. Ties into Tobler’s First Law of Geography.\nCitation: Moraga, P. (n.d.). Chapter 8 Spatial Autocorrelation. In Spatial Statistics for Data Science: Theory and Practice with R. Retrieved fromhttps://www.paulamoraga.com.\n\n“How Spatial Autocorrelation (Global Moran’s I) Works” - ArcGIS Pro Documentation\n\nLink:https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/how-spatial-autocorrelation-global-moran-s-i-works.htm\nDescription: A technical guide from Esri on calculating Moran’s I, including z-scores and p-values, with practical considerations for GIS users.\nCitation: Esri. (2022, January 5). How Spatial Autocorrelation (Global Moran’s I) Works. ArcGIS Pro Documentation. Retrieved fromhttps://pro.arcgis.com."
+  },
+  {
+    "objectID": "index.html#local-morans-i",
+    "href": "index.html#local-morans-i",
+    "title": "Carolinas Regional Explorer User Guide",
+    "section": "Local Moran’s I",
+    "text": "Local Moran’s I\nLocal Moran’s I identifies local clusters and outliers (e.g., HH, HL, LH, LL) within a dataset, extending global autocorrelation.\n\n“Local Spatial Autocorrelation (1)” - GeoDa Documentation\n\nLink:https://geodacenter.github.io/workbook/6a_local_auto/lab6a.html\nDescription: A practical guide using GeoDa to compute Local Moran’s I, with examples from 1830s France data. Explains cluster types and significance testing via permutations.\nCitation: GeoDa Center for Geospatial Analysis and Computation. (2020, October 11). Local Spatial Autocorrelation (1). Retrieved fromhttps://geodacenter.github.io.\n\n“Chapter 13 Local Spatial Autocorrelation” - Geographic Data Science with Python\n\nLink:https://geographicdata.science/book/notebooks/06_spatial_autocorrelation.html\nDescription: A detailed tutorial on Local Moran’s I with Python (PySAL), including cluster interpretation (e.g., “hot spots” for HH, “doughnuts” for LH) and surface data examples.\nCitation: Rey, S., Arribas-Bel, D., & Wolf, L. J. (n.d.). Chapter 13 Local Spatial Autocorrelation. In Geographic Data Science with Python. Retrieved fromhttps://geographicdata.science.\n\n“Moran’s I: Definition, Examples” - Statistics How To\n\nLink:https://www.statisticshowto.com/morans-i/\nDescription: A plain-English explanation of Moran’s I, covering both global and local versions, with simple examples and z-score interpretation.\nCitation: Statistics How To. (2016, August 25). Moran’s I: Definition, Examples. Retrieved fromhttps://www.statisticshowto.com."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.242">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Carolinas Regional Explorer User Guide</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Carolinas Regional Explorer User Guide</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://regionalexplorer.netlify.app/" rel="" target="">
+ <span class="menu-text">Explorer</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section-1-general-navigation-of-the-interactive-maps" id="toc-section-1-general-navigation-of-the-interactive-maps" class="nav-link active" data-scroll-target="#section-1-general-navigation-of-the-interactive-maps">Section 1: General Navigation of the Interactive Maps</a>
+  <ul class="collapse">
+  <li><a href="#zooming-and-panning" id="toc-zooming-and-panning" class="nav-link" data-scroll-target="#zooming-and-panning">Zooming and Panning:</a></li>
+  <li><a href="#using-the-navigation-features" id="toc-using-the-navigation-features" class="nav-link" data-scroll-target="#using-the-navigation-features">Using the Navigation features</a></li>
+  <li><a href="#selecting-geographic-levels" id="toc-selecting-geographic-levels" class="nav-link" data-scroll-target="#selecting-geographic-levels">Selecting Geographic Levels:</a></li>
+  <li><a href="#interpreting-the-maps" id="toc-interpreting-the-maps" class="nav-link" data-scroll-target="#interpreting-the-maps">Interpreting the Maps:</a></li>
+  <li><a href="#using-the-time-slider" id="toc-using-the-time-slider" class="nav-link" data-scroll-target="#using-the-time-slider">Using the Time Slider:</a></li>
+  </ul></li>
+  <li><a href="#section-2-exploring-relationships-between-indicators" id="toc-section-2-exploring-relationships-between-indicators" class="nav-link" data-scroll-target="#section-2-exploring-relationships-between-indicators">Section 2: Exploring Relationships Between Indicators</a>
+  <ul class="collapse">
+  <li><a href="#interpreting-the-bivariate-choropleth-map" id="toc-interpreting-the-bivariate-choropleth-map" class="nav-link" data-scroll-target="#interpreting-the-bivariate-choropleth-map">Interpreting the Bivariate Choropleth Map:</a></li>
+  <li><a href="#understanding-the-legend" id="toc-understanding-the-legend" class="nav-link" data-scroll-target="#understanding-the-legend">Understanding the Legend:</a></li>
+  </ul></li>
+  <li><a href="#section-3-exploring-spatial-patterns-and-clustering" id="toc-section-3-exploring-spatial-patterns-and-clustering" class="nav-link" data-scroll-target="#section-3-exploring-spatial-patterns-and-clustering">Section 3: Exploring Spatial Patterns and Clustering</a>
+  <ul class="collapse">
+  <li><a href="#interpreting-cluster-types" id="toc-interpreting-cluster-types" class="nav-link" data-scroll-target="#interpreting-cluster-types">Interpreting Cluster Types:</a>
+  <ul class="collapse">
+  <li><a href="#caveats" id="toc-caveats" class="nav-link" data-scroll-target="#caveats">Caveats:</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a>
+  <ul class="collapse">
+  <li><a href="#bivariate-choropleth-maps" id="toc-bivariate-choropleth-maps" class="nav-link" data-scroll-target="#bivariate-choropleth-maps">Bivariate Choropleth Maps</a></li>
+  <li><a href="#spatial-autocorrelation" id="toc-spatial-autocorrelation" class="nav-link" data-scroll-target="#spatial-autocorrelation">Spatial Autocorrelation</a></li>
+  <li><a href="#local-morans-i" id="toc-local-morans-i" class="nav-link" data-scroll-target="#local-morans-i">Local Moran’s I</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Carolinas Regional Explorer User Guide</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>This comprehensive user guide for the Carolinas Regional Explorer application, hosted at <a href="https://regionalexplorer.netlify.app/" class="uri">https://regionalexplorer.netlify.app/</a>, is designed to assist users in navigating its features, exploring data relationships, and analyzing spatial patterns. The application is part of the Carolinas Regional Explorer project, a web-based interactive data platform developed by the UNC Charlotte Urban Institute, seeking to present neighborhood-level data on public life across 14 counties surrounding Mecklenberg County. These counties include Mecklenburg, Cabarrus, Union, Stanly, Rowan, Iredell, Catawba, Lincoln, Gaston, Anson, Cleveland, York (SC), Chester (SC), and Lancaster (SC). Modeled along the lines of the Charlotte-Mecklenburg Quality of Life Explorer (<a href="https://ui.charlotte.edu/our-work/quality-life-explorer/">Quality of Life Explorer</a>), the regional explorer expands the spatial footprint to serve the region and offers enhanced features to understand regional growth dynamics.</p>
+<p>The guide is divided into three sections, each addressing specific tools and features, with detailed instructions and interpretations for effective use.</p>
+<section id="section-1-general-navigation-of-the-interactive-maps" class="level1">
+<h1>Section 1: General Navigation of the Interactive Maps</h1>
+<p><img src="images/image13.png" class="img-fluid"></p>
+<p>The first section focuses on navigating the interactive maps, which are central to the application’s functionality, covering the 14 counties served by the UNC Charlotte Urban Institute. Users can zoom, pan, select different geographic levels, interpret the maps, and use a time slider to view changes over time.</p>
+<section id="zooming-and-panning" class="level2">
+<h2 class="anchored" data-anchor-id="zooming-and-panning">Zooming and Panning:</h2>
+<ul>
+<li><p>Users can zoom in and out using the mouse wheel or dedicated zoom buttons, found at the top-left of the map.</p></li>
+<li><p>Panning is achieved by clicking and dragging the map, allowing exploration of different regions within the 14 counties.</p></li>
+</ul>
+<p><img src="images/image3.png" class="img-fluid"></p>
+</section>
+<section id="using-the-navigation-features" class="level2">
+<h2 class="anchored" data-anchor-id="using-the-navigation-features">Using the Navigation features</h2>
+<p><img src="images/imag14.png.jpg" class="img-fluid"></p>
+<p>On the top left of the explorer are a set of navigation features.</p>
+<ul>
+<li>Below the zoom in and zoom out buttons, the Home button allows users to return the map to its default extent. This is especially useful after zooming in or selecting a city or county from the search bar.</li>
+<li>The next button is a basemap selector. Choose from a list of basemaps that suit your purpose and preference.</li>
+<li>The cross button below is to clear selection. When a city or county is selected, their boundaries are highlighted in red. This button will clear any selection made on the map.</li>
+<li>The zoom button below zooms to a selected city or census tract or county. This is useful when one arbitrarily zooms out of a selected feature but wants to return to the default extent of a city or a county.</li>
+<li>The eye button toggles between the explorer and the base map. This is useful when investigating the exact location of a census tract.</li>
+</ul>
+</section>
+<section id="selecting-geographic-levels" class="level2">
+<h2 class="anchored" data-anchor-id="selecting-geographic-levels">Selecting Geographic Levels:</h2>
+<ul>
+<li><p>The search feature let users search for census tracts, towns, cities and counties in the region.</p></li>
+<li><p>The dropdown from the search box also allows you to browse the counties and cities to select them without typing.</p></li>
+<li><p>Selecting a city or county zooms in and shows the boundaries.</p></li>
+</ul>
+<p><img src="images/image11.png" class="img-fluid"></p>
+</section>
+<section id="interpreting-the-maps" class="level2">
+<h2 class="anchored" data-anchor-id="interpreting-the-maps">Interpreting the Maps:</h2>
+<ul>
+<li><p>The maps use color coding to represent values of selected indicators, such as socioeconomic or environmental data.</p></li>
+<li><p>A legend is provided, showing what each color corresponds to, such as a gradient from light to dark indicating low to high values.</p></li>
+</ul>
+<p><img src="images/image7.png" class="img-fluid"></p>
+</section>
+<section id="using-the-time-slider" class="level2">
+<h2 class="anchored" data-anchor-id="using-the-time-slider">Using the Time Slider:</h2>
+<p>The time slider allows users to view data from different time periods, likely years or specific dates, to track historical changes in the 14 counties.</p>
+<p><img src="images/image1.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="section-2-exploring-relationships-between-indicators" class="level1">
+<h1>Section 2: Exploring Relationships Between Indicators</h1>
+<p><img src="images/image10.png" class="img-fluid"></p>
+<p>The second section covers the tool for exploring relationships between indicators using bivariate choropleth maps, accessed via the side bar.</p>
+<p><img src="images/image6.png" class="img-fluid" width="400"></p>
+<p>Selecting Variables:</p>
+<ul>
+<li><p>Open the side bar, located on the left, and locate the section for exploring relationships.</p></li>
+<li><p>Select two variables from drop-down menus, ensuring they are relevant for comparison, such as household income and hispanic/Latino population.</p></li>
+<li><p>Click ‘Analyze Correlation’ to generate the bivariate choropleth map, which displays the relationship between the two variables spatially across the 14 counties.</p></li>
+</ul>
+<section id="interpreting-the-bivariate-choropleth-map" class="level2">
+<h2 class="anchored" data-anchor-id="interpreting-the-bivariate-choropleth-map">Interpreting the Bivariate Choropleth Map:</h2>
+<p>The map uses a combination of colors to represent the values of both variables. For instance, one variable uses shades of blue (light to dark for low to high), and another shades of red, with the resulting color on the map being a mix showing intermediate values.</p>
+<p>This visualization helps identify correlations, such as areas with high values in both variables appearing in darker shades, across the region.</p>
+<p><img src="images/image5.png" class="img-fluid"></p>
+</section>
+<section id="understanding-the-legend" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-the-legend">Understanding the Legend:</h2>
+<ul>
+<li><p>The legend, presented as a matrix or color grid, shows how different combinations of the two variables’ values are represented.&nbsp;</p></li>
+<li><p>The arrows represent the axis of each variable with shades of color along the axis representing high and low values in those variables respectively. Simultaneously, the high values along these axes also represent the low values of the other variables and vice versa.</p></li>
+<li><p>Colors in the top and bottom corner of the square represent areas with high values in both variables and areas with low values in both variables respectively.&nbsp;</p>
+<p><img src="images/image8.png" class="img-fluid" width="300"></p></li>
+</ul>
+</section>
+</section>
+<section id="section-3-exploring-spatial-patterns-and-clustering" class="level1">
+<h1>Section 3: Exploring Spatial Patterns and Clustering</h1>
+<p><img src="images/image9.png" class="img-fluid"></p>
+<p>The third section addresses spatial pattern analysis using local Moran’s I, a statistical measure for identifying spatial clusters, accessed via a toggle button</p>
+<p>Selecting an Indicator:</p>
+<ul>
+<li><p>The indicator is selected in the same way as the explorer. Moving the toggle button lets you enter the spatial pattern analysis mode.&nbsp;</p></li>
+<li><p>For example, if the median household income is selected in the explorer, clicking the toggle button shows the significant clusters and patterns of income in the region.</p></li>
+</ul>
+<p><img src="images/image12.png" class="img-fluid"></p>
+<section id="interpreting-cluster-types" class="level2">
+<h2 class="anchored" data-anchor-id="interpreting-cluster-types">Interpreting Cluster Types:</h2>
+<ul>
+<li><p>The local Moran’s I map identifies four cluster types:</p>
+<ul>
+<li><p><strong>HH (High-High):</strong> Areas with high values surrounded by high-value areas, indicating hot spots, such as regions with consistently high crime rates.</p></li>
+<li><p><strong>LL (Low-Low):</strong> Areas with low values surrounded by low-value areas, indicating cold spots, such as regions with low population density.</p></li>
+<li><p><strong>HL (High-Low):</strong> Areas with high values surrounded by low-value areas, outliers where a high value is isolated, such as a wealthy neighborhood in a poorer region.</p></li>
+<li><p><strong>LH (Low-High):</strong> Areas with low values surrounded by high-value areas, outliers where a low value is isolated, such as a low-income area in a high-income region.</p></li>
+</ul></li>
+<li><p>These clusters help identify spatial autocorrelation, showing where similar values cluster together across the region.</p></li>
+</ul>
+<p><img src="images/image2.png" class="img-fluid"></p>
+<section id="caveats" class="level3">
+<h3 class="anchored" data-anchor-id="caveats">Caveats:</h3>
+<ul>
+<li><p>Interpretation should consider scale dependency; different zoom levels may reveal different patterns, affecting cluster identification across the 14 counties.</p></li>
+<li><p>The definition of neighbors (adjacent areas) impacts results, and users should ensure it aligns with the analysis context, especially given the regional scope.</p></li>
+<li><p>Data suitability is crucial; ensure the indicator is appropriate for spatial autocorrelation. Be cautious, as correlation does not imply causation, and clusters may reflect underlying factors not shown in the data.</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="additional-resources" class="level1">
+<h1>Additional Resources</h1>
+<p>Below is a list of resources with links and citations to help people understand <strong>bivariate choropleth maps</strong>, <strong>spatial autocorrelation</strong>, and <strong>Local Moran’s I</strong>. These resources include accessible guides, academic explanations, and practical examples, suitable for beginners and those seeking deeper insight.</p>
+<section id="bivariate-choropleth-maps" class="level2">
+<h2 class="anchored" data-anchor-id="bivariate-choropleth-maps">Bivariate Choropleth Maps</h2>
+<p>Bivariate choropleth maps use color to display two variables simultaneously, helping to visualize their spatial relationships.</p>
+<ol type="1">
+<li><p><strong>“Bivariate Choropleth Maps: A How-to Guide” by Joshua Stevens</strong></p>
+<ul>
+<li><p><strong>Link</strong>:<a href="https://www.joshuastevens.net/cartography/bivariate-choropleth-maps-a-how-to-guide/">https://www.joshuastevens.net/cartography/bivariate-choropleth-maps-a-how-to-guide/</a></p></li>
+<li><p><strong>Description</strong>: A beginner-friendly tutorial on creating bivariate choropleth maps, with conceptual explanations and practical steps. It emphasizes normalization and color scheme design.</p></li>
+<li><p><strong>Citation</strong>: Stevens, J. (2015, February 17). Bivariate Choropleth Maps: A How-to Guide. Retrieved from<a href="https://www.joshuastevens.net/">https://www.joshuastevens.net</a>.</p></li>
+</ul></li>
+<li><p><strong>“Bivariate Choropleth Maps” - Water Programming Blog</strong></p>
+<ul>
+<li><p><strong>Link</strong>:<a href="https://waterprogramming.wordpress.com/2022/09/08/bivariate-choropleth-maps/">https://waterprogramming.wordpress.com/2022/09/08/bivariate-choropleth-maps/</a></p></li>
+<li><p><strong>Description</strong>: A Python-based guide with code examples using Geopandas, showing how to blend two variables into a 2D colormap. Includes a GitHub repository for hands-on practice.</p></li>
+<li><p><strong>Citation</strong>: Water Programming Blog. (2022, September 8). Bivariate Choropleth Maps. Retrieved from<a href="https://waterprogramming.wordpress.com/">https://waterprogramming.wordpress.com</a>.</p></li>
+</ul></li>
+<li><p><strong>“Bivariate Choropleth Maps” - CDC GIS Portal</strong></p>
+<ul>
+<li><p><strong>Link</strong>:<a href="https://gis.cdc.gov/grasp/diabetes/diabetesatlas-bivariate.html">https://gis.cdc.gov/grasp/diabetes/diabetesatlas-bivariate.html</a></p></li>
+<li><p><strong>Description</strong>: An applied example from the CDC showing bivariate maps of diabetes and obesity, with a clear explanation of the 3x3 color grid (e.g., “LL” for low-low, “HH” for high-high).</p></li>
+<li><p><strong>Citation</strong>: Centers for Disease Control and Prevention. (n.d.). Bivariate Choropleth Maps. Retrieved from<a href="https://gis.cdc.gov/">https://gis.cdc.gov</a>.</p></li>
+</ul></li>
+</ol>
+</section>
+<section id="spatial-autocorrelation" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-autocorrelation">Spatial Autocorrelation</h2>
+<p>Spatial autocorrelation measures how similar values are based on their proximity, often summarized with global statistics like Moran’s I.</p>
+<ol start="4" type="1">
+<li><p><strong>“Spatial Autocorrelation and Moran’s I in GIS” - GIS Geography</strong></p>
+<ul>
+<li><p><strong>Link</strong>:<a href="https://gisgeography.com/spatial-autocorrelation-morans-i/">https://gisgeography.com/spatial-autocorrelation-morans-i/</a></p></li>
+<li><p><strong>Description</strong>: A clear, illustrated introduction to spatial autocorrelation and Moran’s I, explaining positive (clustering) and negative (dispersion) patterns with examples like checkerboards.</p></li>
+<li><p><strong>Citation</strong>: GIS Geography. (2024, March 8). Spatial Autocorrelation and Moran’s I in GIS. Retrieved from<a href="https://gisgeography.com/">https://gisgeography.com</a>.</p></li>
+</ul></li>
+<li><p><strong>“Chapter 8 Spatial Autocorrelation” - Spatial Statistics for Data Science with R by Paula Moraga</strong></p>
+<ul>
+<li><p><strong>Link</strong>:<a href="https://www.paulamoraga.com/book-spatial/spatial-autocorrelation.html">https://www.paulamoraga.com/book-spatial/spatial-autocorrelation.html</a></p></li>
+<li><p><strong>Description</strong>: An academic yet accessible chapter covering Moran’s I and Geary’s C, with R code for analyzing housing prices in Boston. Ties into Tobler’s First Law of Geography.</p></li>
+<li><p><strong>Citation</strong>: Moraga, P. (n.d.). Chapter 8 Spatial Autocorrelation. In Spatial Statistics for Data Science: Theory and Practice with R. Retrieved from<a href="https://www.paulamoraga.com/">https://www.paulamoraga.com</a>.</p></li>
+</ul></li>
+<li><p><strong>“How Spatial Autocorrelation (Global Moran’s I) Works” - ArcGIS Pro Documentation</strong></p>
+<ul>
+<li><p><strong>Link</strong>:<a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/how-spatial-autocorrelation-global-moran-s-i-works.htm">https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/how-spatial-autocorrelation-global-moran-s-i-works.htm</a></p></li>
+<li><p><strong>Description</strong>: A technical guide from Esri on calculating Moran’s I, including z-scores and p-values, with practical considerations for GIS users.</p></li>
+<li><p><strong>Citation</strong>: Esri. (2022, January 5). How Spatial Autocorrelation (Global Moran’s I) Works. ArcGIS Pro Documentation. Retrieved from<a href="https://pro.arcgis.com/">https://pro.arcgis.com</a>.</p></li>
+</ul></li>
+</ol>
+</section>
+<section id="local-morans-i" class="level2">
+<h2 class="anchored" data-anchor-id="local-morans-i">Local Moran’s I</h2>
+<p>Local Moran’s I identifies local clusters and outliers (e.g., HH, HL, LH, LL) within a dataset, extending global autocorrelation.</p>
+<ol start="7" type="1">
+<li><p><strong>“Local Spatial Autocorrelation (1)” - GeoDa Documentation</strong></p>
+<ul>
+<li><p><strong>Link</strong>:<a href="https://geodacenter.github.io/workbook/6a_local_auto/lab6a.html">https://geodacenter.github.io/workbook/6a_local_auto/lab6a.html</a></p></li>
+<li><p><strong>Description</strong>: A practical guide using GeoDa to compute Local Moran’s I, with examples from 1830s France data. Explains cluster types and significance testing via permutations.</p></li>
+<li><p><strong>Citation</strong>: GeoDa Center for Geospatial Analysis and Computation. (2020, October 11). Local Spatial Autocorrelation (1). Retrieved from<a href="https://geodacenter.github.io/">https://geodacenter.github.io</a>.</p></li>
+</ul></li>
+<li><p><strong>“Chapter 13 Local Spatial Autocorrelation” - Geographic Data Science with Python</strong></p>
+<ul>
+<li><p><strong>Link</strong>:<a href="https://geographicdata.science/book/notebooks/06_spatial_autocorrelation.html">https://geographicdata.science/book/notebooks/06_spatial_autocorrelation.html</a></p></li>
+<li><p><strong>Description</strong>: A detailed tutorial on Local Moran’s I with Python (PySAL), including cluster interpretation (e.g., “hot spots” for HH, “doughnuts” for LH) and surface data examples.</p></li>
+<li><p><strong>Citation</strong>: Rey, S., Arribas-Bel, D., &amp; Wolf, L. J. (n.d.). Chapter 13 Local Spatial Autocorrelation. In Geographic Data Science with Python. Retrieved from<a href="https://geographicdata.science/">https://geographicdata.science</a>.</p></li>
+</ul></li>
+<li><p><strong>“Moran’s I: Definition, Examples” - Statistics How To</strong></p>
+<ul>
+<li><p><strong>Link</strong>:<a href="https://www.statisticshowto.com/morans-i/">https://www.statisticshowto.com/morans-i/</a></p></li>
+<li><p><strong>Description</strong>: A plain-English explanation of Moran’s I, covering both global and local versions, with simple examples and z-score interpretation.</p></li>
+<li><p><strong>Citation</strong>: Statistics How To. (2016, August 25). Moran’s I: Definition, Examples. Retrieved from<a href="https://www.statisticshowto.com/">https://www.statisticshowto.com</a>.</p></li>
+</ul></li>
+</ol>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
